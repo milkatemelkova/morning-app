@@ -1,0 +1,127 @@
+:root {
+  --mainBlack: #333333;
+  --mainWhite: #f5f5f5;
+  --mainOrange: #e26d5c;
+  --mainGreen: #faf3dd;
+  --mainEarth: whitesmoke;
+  --darkBlue: #073b4c;
+}
+
+.heading {
+  position: relative;
+  text-align: center;
+  margin-top: 10px;
+  font-family: Arial, sans-serif;
+  color: rgb(156, 136, 22);
+}
+
+
+
+
+
+.card {
+  box-shadow: 0 10px 15px rgb(0, 0, 0);
+  background: var(--mainEarth);
+}
+
+#cityInput {
+
+  background: transparent !important;
+  font-size: 1.5rem;
+  color: var(--mainEarth);
+  outline: 0px !important;
+  box-shadow: none !important;
+
+}
+
+:focus {
+  outline: none;
+}
+
+.submitBtn {
+  background: red;
+  font-size: 1.5rem;
+  cursor: pointer;
+  opacity: 0.7;
+  color: white;
+  outline: none !important;
+}
+
+.submitBtn:hover {
+  opacity: 1;
+  background: white;
+}
+
+.feedback {
+  display: none;
+}
+
+.results {
+  display: none;
+}
+
+.showItem {
+  display: block;
+}
+
+#map {
+  height: 60vh;
+  width: 100%;
+  border: 5px solid navy;
+  border-radius: 10px;
+  position: relative;
+}
+
+#wrap {
+  margin: 20px;
+  width: 80%;
+
+}
+
+body {
+  border: 0;
+  margin: 0;
+}
+
+.queryTo {
+  max-width: 250px;
+  background-color: #FFF;
+  border: 1px solid #ddd;
+  position: absolute;
+  top: 8%;
+  left: 5%;
+  padding: 10px;
+  z-index: 100;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+  width: 100%;
+}
+
+.leaflet-top .leaflet-control {
+  margin-top: 300px;
+
+}
+
+.block {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 15px;
+  border-radius: 3px;
+}
+
+button {
+  margin-top: 20px;
+  margin-left: 30px;
+  padding: 8px;
+  color: white;
+  background: red;
+  border: none;
+  border-radius: 8px;
+  transition: all 0.8s;
+}
+
+button:hover {
+  background: whitesmoke;
+  color: red;
+}
